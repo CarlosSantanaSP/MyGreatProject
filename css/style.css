@@ -6,15 +6,20 @@
 
 body{
     background-color: #fefefe;
+    background-color: #2e3b40;
 }
 .container{
    width: 90%;
    margin: auto;  
-  
+   overflow: hidden;
+
 }
+
+
 .inline{
     display: inline-block;
 }
+/* }
 #header{
     background-color:  #1E1E26;
     color: #ffffff; 
@@ -25,7 +30,7 @@ body{
     color: #ffffff; 
     font-size: 18px; 
     width: 100%;
-    
+    overflow: hidden;
 }
 .navbar ul {
     display: inline-block;
@@ -54,7 +59,7 @@ body{
 
 .navbar li:hover a{
     color: #04D94F;
-}
+}  */
 
 .showcase{
     width: 100%;
@@ -66,7 +71,6 @@ body{
 .showcase h1{
     padding-top: 100px;
     font-size: 60px;
-    
     color: #ffffff;
 }
 .showcase img{
@@ -76,7 +80,6 @@ body{
 }
 
 .showcase p{
-    /* margin: ; */
     font-size: 35px;
     font-weight: 900; 
     position: absolute;
@@ -84,19 +87,170 @@ body{
     color: #ffffff;
 }
 
-.projects{
 
-    margin-top: 80px;
+.index_login{
+    width: 100%;
+    height: 100vh;
+    background-color: #2e3b40;
 
 }
+.index_login img{
+    margin: auto;
+    width: 500px;
+    height: auto;
+    
+}
+
+
+.banner_index_login{
+    width: 100%;
+    height: 100vh;
+    background-image: url("file:///E:/MY_GREAT_PROJECT/imagens/printed_circuit_board_black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    background-color: #1E1E26;
+    padding-top: 50px;
+}
+
+.banner_index_login h1{
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.login_box{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    opacity: 0.9;
+    background-color: #2e3b40;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.login_component{
+    background-color: #1E1E26;
+    width: 200px;
+    height: 50px;
+    border: 1px #04d94f solid;
+    border-radius: 5px;
+    color: #fefefe;
+    margin: 25px;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.button_login{
+    width: 70px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #04d94f;
+    padding: 10px;
+    font-weight: 900;
+    margin-left: 100px;
+    opacity: 1;
+    
+}
+
+.login_component:hover{
+    background-color: rgb(70, 70, 75);
+}
+
+.button_login:hover{
+    background-color: #000000;
+    color: #04d94f;
+    border: 1px #04d94f solid;
+}
+
+.description {
+    background-color: #1E1E26;
+    color: #fefefe;
+    font-size: 20px;   
+}
+.description h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.slideshow{
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    float: left;
+    margin-right: 10px;
+
+}
+.block{
+    margin: auto;
+    width: 1120px;
+    height: 457px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+.slideshow_description{
+    width: 500px;
+    height: 400px;
+    background-color: royalblue;
+    float: left;
+    margin-left: 10px;
+}
+
+.projects{
+    width: 100%;
+    /* background-color: yellow; */
+    margin: auto;
+}
+
+
+
 .box{
-    width: 380px;
+    width: 350px;
     height: 270px;
     background-color: #1E1E26;
     display: inline-block;
     margin: 20px;
 }
 
+.lane_projects{
+    padding-top:20px;
+    padding-bottom:20px;
+    color: #fefefe;
+    font-size: 25px;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+.lane_projects header{
+    padding: 10px;
+    border-bottom: 1px #fefefe solid;
+}
+
+.new_projects .box{
+    background-image: url("https://i.ytimg.com/vi/Wp5xtcNDa9w/maxresdefault.jpg");
+    background-size: cover;
+}
+
+.famous_projects .box{
+    background-image: url("https://s2.glbimg.com/M5Yk6LIaNrgxXfbCPrwyRvUmi2g=/695x0/s.glbimg.com/po/tt2/f/original/2015/04/14/console.jpg");
+    background-size: cover;
+}
+
+.projects_by_categori .box{
+    background-image: url("https://lh3.googleusercontent.com/proxy/1Rcnb7nUOySsHrt7D_AupITI2Ixj9Z_elSjCGwrYECAGhxHUmq_BwdaVDcBpnoMcKlgm5O7z7peFxDOM_FAgNMeTf69pqIR_GVc");
+    background-size: cover;
+}
+
+
 footer{
     background-color: #1E1E26;
+    color: #fefefe;
+    text-align: center;
+    height: 100px;
+    padding: 50px;
 }
